@@ -1,0 +1,25 @@
+{
+  "name": "notifications",
+  "version": "1.0.0",
+  "description": "notificaciones push para app MUSERPOL PVT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Moises Ochoa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "path": "^0.12.7",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
